@@ -1,0 +1,6 @@
+.main img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 700px;
+  width: 100%;
+}/*# sourceMappingURL=home.css.map */

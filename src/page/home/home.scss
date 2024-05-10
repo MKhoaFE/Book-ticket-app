@@ -1,7 +1,49 @@
-.main{
-    img{
-        object-fit: cover;
-        height: 700px;
-        width: 100%;
+.main {
+  position: relative;
+  .booking-wrap {
+    position: absolute;
+    width: auto;
+    padding: 0 3rem;    
+    height: 80px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgba(255,255,255,0.5);
+    .booking-wrap-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .divider {
+        position: relative;
+        width: 50px;
+        height: 50px;
+
+        .line {
+          border-left: 1px solid grey;
+          height: 50px;
+          position: absolute;
+          left: 50%;
+          margin-left: -3px;
+          top: 0;
+          transform: rotate(40deg); /* Equal to rotateZ(45deg) */
+        }
+      }
+      button {
+        padding: 0.6rem 6rem;
+        border: none;
+        background-color: #266b49;
+        color: white;
+      }
     }
+  }
+  img {
+    object-fit: cover;
+    height: 700px;
+    width: 100%;
+  }
+  .content-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+  }
 }

@@ -1,5 +1,43 @@
 .footer{
     width: 100%;
-    background-color: grey;
-    height: 4rem;
+    background-color: #353535;
+    height: auto;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        font-size: 12px;
+        color: white;
+        @media (max-width:768px) {
+            display: block;
+            gap: 2rem;
+        }
+        .content-item{
+            @media (max-width:768px) {
+                padding: 1rem 0;
+            }
+        }
+    }
+    .footer-bottom{
+        background-color: #212121;
+        color: white;
+        .wrap{
+            display: flex;
+
+            @media (max-width:768px) {
+                display: block;
+            }
+            .right{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                @media (max-width:768px) {
+                    justify-content: center;
+                }
+                img{
+                    width: 120px;
+                }
+            }
+        }
+    }
 }

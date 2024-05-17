@@ -33,13 +33,15 @@
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "@mui/x-date-pickers": "^7.3.2",
     "@mui/x-date-pickers-pro": "^7.3.2",
+    "@react-google-maps/api": "^2.19.3",
     "antd": "^5.16.1",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "react": "^18.2.0",
+    "google-map-react": "^2.2.1",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-datetime-picker": "^6.0.1",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
     "styled-components": "^6.1.9"
   }
